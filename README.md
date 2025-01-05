@@ -67,25 +67,6 @@ This project features an AI-powered **Query-Response Agent** that remembers prev
     print(response)
     ```
 
-## Deployment
-
-You can deploy the agent to your preferred platform (e.g., **Heroku**, **AWS**, **Google Cloud**, etc.) by following standard deployment procedures for FastAPI applications.
-
-### Example Deployment (Heroku)
-
-1. Create a `Procfile`:
-
-    ```plaintext
-    web: uvicorn main:app --host=0.0.0.0 --port=${PORT:-5000}
-    ```
-
-2. Push to Heroku:
-
-    ```bash
-    heroku create
-    git push heroku master
-    heroku open
-    ```
 
 ## Contributing
 
